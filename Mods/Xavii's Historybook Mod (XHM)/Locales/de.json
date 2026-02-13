@@ -1,0 +1,16 @@
+{
+  "historybook_title": "Geschichtsbuch",
+  "historybook_open_button": "Geschichtsbuch",
+  "historybook_delete_all": "Alle löschen",
+  "historybook_delete_entry": "Eintrag löschen",
+  "historybook_export_button": "Zeitleiste exportieren",
+  "historybook_no_favorites": "Markieren Sie eine Einheit als Favorit, um mit der Erfassung ihrer Geschichte zu beginnen.",
+  "historybook_select_prompt": "Wählen Sie in der linken Spalte einen Favoriten aus, um dessen unendlich scrollbare Seite zu öffnen.",
+  "historybook_follow_relative": "Folgen",
+  "historybook_favorites_header": "Favoriten",
+  "historybook_timeline_header": "Zeitleiste",
+  "historybook_empty_timeline": "Noch keine Zeitleistenereignisse.",
+  "historybook_histories_deleted": "Alle Favoritenverläufe wurden gelöscht.",
+  "historybook_record_deleted": "Der Verlauf dieser Einheit wurde entfernt.",
+  "historybook_toggle_success": "Geschichtsbuch umgeschaltet."
+}

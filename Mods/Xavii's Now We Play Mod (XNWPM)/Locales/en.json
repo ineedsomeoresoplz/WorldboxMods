@@ -1,0 +1,13 @@
+{
+    "status_title": "Now We Play (XNWPM)",
+    "host_port_label": "Host port",
+    "client_address_label": "Host address",
+    "client_port_label": "Host port",
+    "start_host_button": "Start Hosting",
+    "connect_button": "Join Session",
+    "disconnect_button": "Disconnect",
+    "stop_button": "Stop Session",
+    "status_label": "Status",
+    "clients_label": "Clients",
+    "log_label": "Connection Log"
+}

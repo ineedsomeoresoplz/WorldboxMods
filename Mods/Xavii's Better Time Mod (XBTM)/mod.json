@@ -1,0 +1,9 @@
+{
+  "name": "Xavii's Better Time Mod (XBTM)",
+  "author": "ineedsomeoreosplz",
+  "GUID": "com.xavii.bettertimemod",
+  "version": "1.0.0",
+  "description": "Forces every day/night cycle to last exactly five real minutes, keeps ages locked to Hope (day) and Moon (night), and leaves actors running at normal speed.",
+  "iconPath": "icon.png",
+  "targetGameBuild": 719
+}

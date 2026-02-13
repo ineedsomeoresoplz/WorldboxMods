@@ -1,0 +1,11 @@
+{
+    "selectedProviderId": "lm_studio",
+    "apiUrl": "http://localhost:1234/v1/chat/completions",
+    "apiKey": "aaa",
+    "modelId": "deepseek/deepseek-r1-0528-qwen3-8b",
+    "customModelName": "",
+    "cachedLocalModels": [
+        "deepseek/deepseek-r1-0528-qwen3-8b"
+    ],
+    "lastModelFetch": 1769522215
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Xavii's Historybook Mod (XHM)",
+    "author": "ineedsomeoreosplz",
+    "GUID": "com.xavii.xhm",
+    "version": "1.1.0",
+    "description": "Chronicles every favorite unit's epic life - lovers, births, royal ascensions, actions, and click-to-follow navigation, plus exportable timelines.",
+    "Dependencies": [
+        "com.xavii.xwm"
+    ],
+    "iconPath": "icon.png",
+    "targetGameBuild": 719
+}

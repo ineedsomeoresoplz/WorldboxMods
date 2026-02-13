@@ -1,0 +1,9 @@
+{
+  "name": "Xavii's We Are Sapient Mod (XWASM)",
+  "author": "ineedsomeoreosplz",
+  "GUID": "com.xavii.xwasm",
+  "version": "1.0.0",
+  "description": "Makes any creature fully sapient on demand and adds a species-wide uplift option with human-style structures.",
+  "targetGameBuild": 719,
+  "iconPath": "icon.png"
+}

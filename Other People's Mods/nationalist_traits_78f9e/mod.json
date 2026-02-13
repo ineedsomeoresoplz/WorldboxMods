@@ -1,0 +1,9 @@
+{
+  "name": "Nationalist Traits",
+  "author": "RoxRexTW",
+  "version": "2.0",
+  "startPoint": "Main.cs",
+  "description": "Nationalism Ideologys",
+  "iconPath": "iconlarge.png",
+  "targetGameBuild": 558
+}

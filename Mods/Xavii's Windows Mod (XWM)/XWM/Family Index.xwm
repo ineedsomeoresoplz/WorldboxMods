@@ -1,0 +1,783 @@
+{
+  "format": "xwm",
+  "version": "2.0.0",
+  "documentName": "Family Index",
+  "createdAtUtc": "2026-02-07T20:22:35.8106381Z",
+  "canvasSize": {
+    "x": 900.0,
+    "y": 620.0
+  },
+  "nextOrder": 37,
+  "nodes": [
+    {
+      "id": "root",
+      "parentId": "",
+      "type": "Frame",
+      "name": "CanvasRoot",
+      "order": 0,
+      "layer": 0,
+      "active": true,
+      "properties": [
+        {
+          "key": "x",
+          "value": "20"
+        },
+        {
+          "key": "y",
+          "value": "-50"
+        },
+        {
+          "key": "width",
+          "value": "900"
+        },
+        {
+          "key": "height",
+          "value": "620"
+        },
+        {
+          "key": "anchorMinX",
+          "value": "0.5"
+        },
+        {
+          "key": "anchorMinY",
+          "value": "0.5"
+        },
+        {
+          "key": "anchorMaxX",
+          "value": "0.5"
+        },
+        {
+          "key": "anchorMaxY",
+          "value": "0.5"
+        },
+        {
+          "key": "pivotX",
+          "value": "0.5"
+        },
+        {
+          "key": "pivotY",
+          "value": "0.5"
+        },
+        {
+          "key": "rotation",
+          "value": "0"
+        },
+        {
+          "key": "scaleX",
+          "value": ".6"
+        },
+        {
+          "key": "scaleY",
+          "value": "1"
+        },
+        {
+          "key": "color",
+          "value": "#1F2735CC"
+        },
+        {
+          "key": "sprite",
+          "value": "ui/icons/windowInnerSliced"
+        }
+      ]
+    },
+    {
+      "id": "node_1",
+      "parentId": "root",
+      "type": "Frame",
+      "name": "Frame",
+      "order": 2,
+      "layer": 0,
+      "active": true,
+      "properties": [
+        {
+          "key": "x",
+          "value": "2"
+        },
+        {
+          "key": "y",
+          "value": "6"
+        },
+        {
+          "key": "width",
+          "value": "899"
+        },
+        {
+          "key": "height",
+          "value": "613"
+        },
+        {
+          "key": "anchorMinX",
+          "value": "0"
+        },
+        {
+          "key": "anchorMinY",
+          "value": "1"
+        },
+        {
+          "key": "anchorMaxX",
+          "value": "0"
+        },
+        {
+          "key": "anchorMaxY",
+          "value": "1"
+        },
+        {
+          "key": "pivotX",
+          "value": "0"
+        },
+        {
+          "key": "pivotY",
+          "value": "1"
+        },
+        {
+          "key": "rotation",
+          "value": "0"
+        },
+        {
+          "key": "scaleX",
+          "value": "1"
+        },
+        {
+          "key": "scaleY",
+          "value": "1"
+        },
+        {
+          "key": "color",
+          "value": "#53668CD9"
+        },
+        {
+          "key": "sprite",
+          "value": "ui/icons/windowInnerSliced"
+        }
+      ]
+    },
+    {
+      "id": "node_3",
+      "parentId": "node_1",
+      "type": "Frame",
+      "name": "TitleBackdrop",
+      "order": 4,
+      "layer": 0,
+      "active": true,
+      "properties": [
+        {
+          "key": "x",
+          "value": "80"
+        },
+        {
+          "key": "y",
+          "value": "-69"
+        },
+        {
+          "key": "width",
+          "value": "735"
+        },
+        {
+          "key": "height",
+          "value": "148"
+        },
+        {
+          "key": "anchorMinX",
+          "value": "0"
+        },
+        {
+          "key": "anchorMinY",
+          "value": "1"
+        },
+        {
+          "key": "anchorMaxX",
+          "value": "0"
+        },
+        {
+          "key": "anchorMaxY",
+          "value": "1"
+        },
+        {
+          "key": "pivotX",
+          "value": "0"
+        },
+        {
+          "key": "pivotY",
+          "value": "1"
+        },
+        {
+          "key": "rotation",
+          "value": "0"
+        },
+        {
+          "key": "scaleX",
+          "value": "1"
+        },
+        {
+          "key": "scaleY",
+          "value": "1"
+        },
+        {
+          "key": "color",
+          "value": "#2A3447D9"
+        },
+        {
+          "key": "sprite",
+          "value": "ui/icons/windowInnerSliced"
+        },
+        {
+          "key": "backgroundTransparency",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": "node_5",
+      "parentId": "node_3",
+      "type": "TextLabel",
+      "name": "Title",
+      "order": 6,
+      "layer": 0,
+      "active": true,
+      "properties": [
+        {
+          "key": "x",
+          "value": "6"
+        },
+        {
+          "key": "y",
+          "value": "-26"
+        },
+        {
+          "key": "width",
+          "value": "735"
+        },
+        {
+          "key": "height",
+          "value": "148"
+        },
+        {
+          "key": "anchorMinX",
+          "value": "0"
+        },
+        {
+          "key": "anchorMinY",
+          "value": "1"
+        },
+        {
+          "key": "anchorMaxX",
+          "value": "0"
+        },
+        {
+          "key": "anchorMaxY",
+          "value": "1"
+        },
+        {
+          "key": "pivotX",
+          "value": "0"
+        },
+        {
+          "key": "pivotY",
+          "value": "1"
+        },
+        {
+          "key": "rotation",
+          "value": "0"
+        },
+        {
+          "key": "scaleX",
+          "value": "1"
+        },
+        {
+          "key": "scaleY",
+          "value": "1"
+        },
+        {
+          "key": "text",
+          "value": "Family Index"
+        },
+        {
+          "key": "fontSize",
+          "value": "100"
+        },
+        {
+          "key": "textColor",
+          "value": "#F4F9FFFF"
+        },
+        {
+          "key": "sprite",
+          "value": "ui/icons/backgroundTabButton"
+        },
+        {
+          "key": "color",
+          "value": "#4D79A7FF"
+        },
+        {
+          "key": "alignment",
+          "value": "MiddleCenter"
+        },
+        {
+          "key": "raycastTarget",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "id": "node_9",
+      "parentId": "node_1",
+      "type": "Frame",
+      "name": "List",
+      "order": 10,
+      "layer": 1,
+      "active": true,
+      "properties": [
+        {
+          "key": "x",
+          "value": "3"
+        },
+        {
+          "key": "y",
+          "value": "87"
+        },
+        {
+          "key": "width",
+          "value": "897"
+        },
+        {
+          "key": "height",
+          "value": "522"
+        },
+        {
+          "key": "anchorMinX",
+          "value": "0"
+        },
+        {
+          "key": "anchorMinY",
+          "value": "1"
+        },
+        {
+          "key": "anchorMaxX",
+          "value": "0"
+        },
+        {
+          "key": "anchorMaxY",
+          "value": "1"
+        },
+        {
+          "key": "pivotX",
+          "value": "0"
+        },
+        {
+          "key": "pivotY",
+          "value": "1"
+        },
+        {
+          "key": "rotation",
+          "value": "0"
+        },
+        {
+          "key": "scaleX",
+          "value": "1"
+        },
+        {
+          "key": "scaleY",
+          "value": "1"
+        },
+        {
+          "key": "color",
+          "value": "#53668CD9"
+        },
+        {
+          "key": "sprite",
+          "value": "ui/icons/windowInnerSliced"
+        },
+        {
+          "key": "backgroundTransparency",
+          "value": ".8"
+        }
+      ]
+    },
+    {
+      "id": "node_11",
+      "parentId": "node_9",
+      "type": "Frame",
+      "name": "FamilyTemplate",
+      "order": 12,
+      "layer": 0,
+      "active": false,
+      "properties": [
+        {
+          "key": "x",
+          "value": "23"
+        },
+        {
+          "key": "y",
+          "value": "15"
+        },
+        {
+          "key": "width",
+          "value": "153"
+        },
+        {
+          "key": "height",
+          "value": "85"
+        },
+        {
+          "key": "anchorMinX",
+          "value": "0"
+        },
+        {
+          "key": "anchorMinY",
+          "value": "1"
+        },
+        {
+          "key": "anchorMaxX",
+          "value": "0"
+        },
+        {
+          "key": "anchorMaxY",
+          "value": "1"
+        },
+        {
+          "key": "pivotX",
+          "value": "0"
+        },
+        {
+          "key": "pivotY",
+          "value": "1"
+        },
+        {
+          "key": "rotation",
+          "value": "0"
+        },
+        {
+          "key": "scaleX",
+          "value": "1"
+        },
+        {
+          "key": "scaleY",
+          "value": "1"
+        },
+        {
+          "key": "color",
+          "value": "#2A3447D9"
+        },
+        {
+          "key": "sprite",
+          "value": "ui/icons/windowInnerSliced"
+        },
+        {
+          "key": "active",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "id": "node_13",
+      "parentId": "node_11",
+      "type": "ImageLabel",
+      "name": "ImageLabel1",
+      "order": 14,
+      "layer": 0,
+      "active": true,
+      "properties": [
+        {
+          "key": "x",
+          "value": "1"
+        },
+        {
+          "key": "y",
+          "value": "1"
+        },
+        {
+          "key": "width",
+          "value": "152"
+        },
+        {
+          "key": "height",
+          "value": "84"
+        },
+        {
+          "key": "anchorMinX",
+          "value": "0"
+        },
+        {
+          "key": "anchorMinY",
+          "value": "1"
+        },
+        {
+          "key": "anchorMaxX",
+          "value": "0"
+        },
+        {
+          "key": "anchorMaxY",
+          "value": "1"
+        },
+        {
+          "key": "pivotX",
+          "value": "0"
+        },
+        {
+          "key": "pivotY",
+          "value": "1"
+        },
+        {
+          "key": "rotation",
+          "value": "0"
+        },
+        {
+          "key": "scaleX",
+          "value": "1"
+        },
+        {
+          "key": "scaleY",
+          "value": "1"
+        },
+        {
+          "key": "sprite",
+          "value": "ui/icons/iconPortrait"
+        },
+        {
+          "key": "color",
+          "value": "#FFFFFFFF"
+        },
+        {
+          "key": "backgroundTransparency",
+          "value": "1"
+        },
+        {
+          "key": "imageTransparency",
+          "value": "0"
+        },
+        {
+          "key": "raycastTarget",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "id": "node_15",
+      "parentId": "node_11",
+      "type": "TextLabel",
+      "name": "TextLabel2",
+      "order": 16,
+      "layer": 1,
+      "active": true,
+      "properties": [
+        {
+          "key": "x",
+          "value": "1"
+        },
+        {
+          "key": "y",
+          "value": "0"
+        },
+        {
+          "key": "width",
+          "value": "155"
+        },
+        {
+          "key": "height",
+          "value": "27"
+        },
+        {
+          "key": "anchorMinX",
+          "value": "0"
+        },
+        {
+          "key": "anchorMinY",
+          "value": "1"
+        },
+        {
+          "key": "anchorMaxX",
+          "value": "0"
+        },
+        {
+          "key": "anchorMaxY",
+          "value": "1"
+        },
+        {
+          "key": "pivotX",
+          "value": "0"
+        },
+        {
+          "key": "pivotY",
+          "value": "1"
+        },
+        {
+          "key": "rotation",
+          "value": "0"
+        },
+        {
+          "key": "scaleX",
+          "value": "1"
+        },
+        {
+          "key": "scaleY",
+          "value": "1"
+        },
+        {
+          "key": "text",
+          "value": "The Doe Family"
+        },
+        {
+          "key": "fontSize",
+          "value": "14"
+        },
+        {
+          "key": "textColor",
+          "value": "#F4F9FFFF"
+        },
+        {
+          "key": "sprite",
+          "value": "ui/icons/backgroundTabButton"
+        },
+        {
+          "key": "color",
+          "value": "#4D79A7FF"
+        },
+        {
+          "key": "backgroundTransparency",
+          "value": "0"
+        },
+        {
+          "key": "textTransparency",
+          "value": "0"
+        },
+        {
+          "key": "alignment",
+          "value": "MiddleCenter"
+        },
+        {
+          "key": "raycastTarget",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "id": "node_17",
+      "parentId": "node_11",
+      "type": "TextButton",
+      "name": "TextButton1",
+      "order": 18,
+      "layer": 2,
+      "active": true,
+      "properties": [
+        {
+          "key": "x",
+          "value": "2"
+        },
+        {
+          "key": "y",
+          "value": "1"
+        },
+        {
+          "key": "width",
+          "value": "152"
+        },
+        {
+          "key": "height",
+          "value": "86"
+        },
+        {
+          "key": "anchorMinX",
+          "value": "0"
+        },
+        {
+          "key": "anchorMinY",
+          "value": "1"
+        },
+        {
+          "key": "anchorMaxX",
+          "value": "0"
+        },
+        {
+          "key": "anchorMaxY",
+          "value": "1"
+        },
+        {
+          "key": "pivotX",
+          "value": "0"
+        },
+        {
+          "key": "pivotY",
+          "value": "1"
+        },
+        {
+          "key": "rotation",
+          "value": "0"
+        },
+        {
+          "key": "scaleX",
+          "value": "1"
+        },
+        {
+          "key": "scaleY",
+          "value": "1"
+        },
+        {
+          "key": "text",
+          "value": "Button"
+        },
+        {
+          "key": "fontSize",
+          "value": "14"
+        },
+        {
+          "key": "textColor",
+          "value": "#F4F9FFFF"
+        },
+        {
+          "key": "sprite",
+          "value": "ui/icons/backgroundTabButton"
+        },
+        {
+          "key": "color",
+          "value": "#4D79A7FF"
+        },
+        {
+          "key": "backgroundTransparency",
+          "value": "1"
+        },
+        {
+          "key": "textTransparency",
+          "value": "1"
+        },
+        {
+          "key": "interactable",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "id": "node_19",
+      "parentId": "node_9",
+      "type": "UIListLayout",
+      "name": "UIListLayout1",
+      "order": 20,
+      "layer": 1,
+      "active": true,
+      "properties": [
+        {
+          "key": "orientation",
+          "value": "Vertical"
+        },
+        {
+          "key": "spacing",
+          "value": "8"
+        },
+        {
+          "key": "childControlWidth",
+          "value": "true"
+        },
+        {
+          "key": "childControlHeight",
+          "value": "false"
+        },
+        {
+          "key": "childForceExpandWidth",
+          "value": "false"
+        },
+        {
+          "key": "childForceExpandHeight",
+          "value": "false"
+        }
+      ]
+    }
+  ]
+}

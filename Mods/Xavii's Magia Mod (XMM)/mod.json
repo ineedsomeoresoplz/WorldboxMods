@@ -1,0 +1,9 @@
+{
+  "name": "Xavii's Magia Mod (XMM)",
+  "author": "ineedsomeoreosplz",
+  "GUID": "com.xavii.magia",
+  "version": "1.1.0",
+  "description": "Adds an elemental magic system.",
+  "iconPath": "icon.png",
+  "targetGameBuild": 719
+}

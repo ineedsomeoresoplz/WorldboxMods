@@ -1,0 +1,8 @@
+{
+  "name": "Xavii's Nation Types Mod (XNTM)",
+  "author": "ineedsomeoreosplz",
+  "version": "1.3.0",
+  "description": "Adds an extensible nation-type system plus Land Types (village, city, state, vassal kingdom) that tie city behavior to their parent nation archetype.",
+  "iconPath": "icon.png",
+  "targetGameBuild": 719
+}

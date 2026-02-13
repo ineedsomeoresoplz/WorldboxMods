@@ -1,0 +1,9 @@
+{
+    "name": "Xavii's Now We Play Mod (XNWPM)",
+    "author": "ineedsomeoreosplz",
+    "GUID": "com.xavii.xnwpm",
+    "version": "1.0.0",
+    "description": "Adds a co-op God mode experience where multiple players can share Worldbox control over their network.",
+    "iconPath": "icon.png",
+    "targetGameBuild": 719
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Xavii's Better Families Mod",
+  "author": "ineedsomeoreosplz",
+  "GUID": "com.xavii.betterfamiliesmod",
+  "version": "1.0.0",
+  "description": "Deeply expands WorldBox family simulation with better kinship logic, parenting, lineage, dynastic pressure, feud memory, and compatibility-focused family AI upgrades.",
+  "iconPath": "icon.png",
+  "targetGameBuild": 719
+}

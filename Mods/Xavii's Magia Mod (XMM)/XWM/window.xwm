@@ -1,0 +1,179 @@
+{
+  "format": "xwm",
+  "version": "2.0.0",
+  "documentName": "window",
+  "createdAtUtc": "2026-02-07T04:36:12.1461450Z",
+  "canvasSize": {
+    "x": 900.0,
+    "y": 620.0
+  },
+  "nextOrder": 7,
+  "nodes": [
+    {
+      "id": "root",
+      "parentId": "",
+      "type": "Frame",
+      "name": "CanvasRoot",
+      "order": 0,
+      "layer": 0,
+      "active": true,
+      "properties": [
+        {
+          "key": "x",
+          "value": "9"
+        },
+        {
+          "key": "y",
+          "value": "-64"
+        },
+        {
+          "key": "width",
+          "value": "900"
+        },
+        {
+          "key": "height",
+          "value": "620"
+        },
+        {
+          "key": "anchorMinX",
+          "value": "0.5"
+        },
+        {
+          "key": "anchorMinY",
+          "value": "0.5"
+        },
+        {
+          "key": "anchorMaxX",
+          "value": "0.5"
+        },
+        {
+          "key": "anchorMaxY",
+          "value": "0.5"
+        },
+        {
+          "key": "pivotX",
+          "value": "0.5"
+        },
+        {
+          "key": "pivotY",
+          "value": "0.5"
+        },
+        {
+          "key": "rotation",
+          "value": "0"
+        },
+        {
+          "key": "scaleX",
+          "value": ".6"
+        },
+        {
+          "key": "scaleY",
+          "value": "1"
+        },
+        {
+          "key": "color",
+          "value": "#1F2735CC"
+        },
+        {
+          "key": "textColor",
+          "value": "#F4F9FFFF"
+        },
+        {
+          "key": "fontSize",
+          "value": "14"
+        },
+        {
+          "key": "interactable",
+          "value": "true"
+        },
+        {
+          "key": "sprite",
+          "value": "ui/icons/windowInnerSliced"
+        }
+      ]
+    },
+    {
+      "id": "node_3",
+      "parentId": "root",
+      "type": "Frame",
+      "name": "Frame2",
+      "order": 4,
+      "layer": 0,
+      "active": true,
+      "properties": [
+        {
+          "key": "x",
+          "value": "-4"
+        },
+        {
+          "key": "y",
+          "value": "3"
+        },
+        {
+          "key": "width",
+          "value": "1500"
+        },
+        {
+          "key": "height",
+          "value": "620"
+        },
+        {
+          "key": "anchorMinX",
+          "value": "0.5"
+        },
+        {
+          "key": "anchorMinY",
+          "value": "0.5"
+        },
+        {
+          "key": "anchorMaxX",
+          "value": "0.5"
+        },
+        {
+          "key": "anchorMaxY",
+          "value": "0.5"
+        },
+        {
+          "key": "pivotX",
+          "value": "0.5"
+        },
+        {
+          "key": "pivotY",
+          "value": "0.5"
+        },
+        {
+          "key": "rotation",
+          "value": "0"
+        },
+        {
+          "key": "scaleX",
+          "value": ".6"
+        },
+        {
+          "key": "scaleY",
+          "value": "1"
+        },
+        {
+          "key": "color",
+          "value": "#2A3447D9"
+        },
+        {
+          "key": "textColor",
+          "value": "#343232FF"
+        },
+        {
+          "key": "fontSize",
+          "value": "14"
+        },
+        {
+          "key": "interactable",
+          "value": "true"
+        },
+        {
+          "key": "sprite",
+          "value": "ui/icons/windowInnerSliced"
+        }
+      ]
+    }
+  ]
+}

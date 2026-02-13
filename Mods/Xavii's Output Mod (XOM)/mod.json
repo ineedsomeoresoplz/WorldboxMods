@@ -1,0 +1,9 @@
+﻿{
+  "name": "Xavii's Output Mod (XOM)",
+  "author": "ineedsomeoreosplz",
+  "GUID": "com.xavii.outputmod",
+  "version": "1.0.0",
+  "description": "Logs the WorldBox console output to timestamped files and marks the previously latest log with a LATEST_ prefix.",
+  "iconPath": "icon.png",
+  "targetGameBuild": 719
+}

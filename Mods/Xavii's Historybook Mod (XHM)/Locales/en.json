@@ -1,0 +1,16 @@
+{
+  "historybook_title": "Historybook",
+  "historybook_open_button": "Historybook",
+  "historybook_delete_all": "Delete All",
+  "historybook_delete_entry": "Delete Entry",
+  "historybook_export_button": "Export timeline",
+  "historybook_no_favorites": "Mark a unit as favorite to start capturing their story.",
+  "historybook_select_prompt": "Select a favorite from the left column to open their infinitely scrollable page.",
+  "historybook_follow_relative": "Follow",
+  "historybook_favorites_header": "Favorite Units",
+  "historybook_timeline_header": "Timeline",
+  "historybook_empty_timeline": "No timeline events yet.",
+  "historybook_histories_deleted": "All favorite histories were cleared.",
+  "historybook_record_deleted": "This unit's history was removed.",
+  "historybook_toggle_success": "Historybook toggled."
+}

@@ -1,0 +1,16 @@
+{
+  "historybook_title": "Книга истории",
+  "historybook_open_button": "Книга истории",
+  "historybook_delete_all": "Удалить все",
+  "historybook_delete_entry": "Удалить запись",
+  "historybook_export_button": "Экспортировать временную шкалу",
+  "historybook_no_favorites": "Отметьте отряд как избранный, чтобы начать записывать его историю.",
+  "historybook_select_prompt": "Выберите избранного в левом столбце, чтобы открыть его бесконечно прокручиваемую страницу.",
+  "historybook_follow_relative": "Следовать",
+  "historybook_favorites_header": "Избранные юниты",
+  "historybook_timeline_header": "Хронология",
+  "historybook_empty_timeline": "Пока нет событий на временной шкале.",
+  "historybook_histories_deleted": "Все любимые истории были очищены.",
+  "historybook_record_deleted": "История этого объекта удалена.",
+  "historybook_toggle_success": "Журнал истории переключен."
+}

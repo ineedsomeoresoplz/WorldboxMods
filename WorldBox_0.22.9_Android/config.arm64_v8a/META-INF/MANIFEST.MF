@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+
+Name: AndroidManifest.xml
+SHA1-Digest: 0fFPSwPKC0s/esumra2GOnOYGSA=
+
+Name: lib/arm64-v8a/libFirebaseCppAnalytics.so
+SHA1-Digest: gnE6VoY/1XDf1PrLoJmx+RCdlkA=
+
+Name: lib/arm64-v8a/libFirebaseCppApp-10_5_0.so
+SHA1-Digest: OKM+g8Ay8cGB1QLscslm2DTTs38=
+
+Name: lib/arm64-v8a/libfmod.so
+SHA1-Digest: WTft+v1NYKjbnL4Dez9p9JBb+TE=
+
+Name: lib/arm64-v8a/libfmodstudio.so
+SHA1-Digest: DaJLzWIjo81orIG/mIMraQOLeuw=
+
+Name: lib/arm64-v8a/libil2cpp.so
+SHA1-Digest: RLLqhO/z2UqVeOKqJEvSo52HE9g=
+
+Name: lib/arm64-v8a/libmain.so
+SHA1-Digest: ZSIIDDJ4lKgPob0boCRV2rrLS88=
+
+Name: lib/arm64-v8a/libpairipcore.so
+SHA1-Digest: rBaEra26/OzTfidyDymym53X3vQ=
+
+Name: lib/arm64-v8a/libresonanceaudio.so
+SHA1-Digest: HbA4o1hqAW7srCNreSD2lJqFTkc=
+
+Name: lib/arm64-v8a/libunity.so
+SHA1-Digest: XJJI0sAmx7QXKOB2E05R8imnORM=
+
+Name: stamp-cert-sha256
+SHA1-Digest: 5vTkm69vqAbusD/fho7oWwc7j+I=
+

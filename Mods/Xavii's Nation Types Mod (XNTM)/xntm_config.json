@@ -1,0 +1,11 @@
+{
+  "showDescriptions": true,
+  "logActorDiscoveriesForAllActors": false,
+  "preferenceTraitsNoTouch": true,
+  "filterRepetitiveNationTypes": true,
+  "republicElections": true,
+  "republicElectionMinYears": 3.0,
+  "republicElectionMaxYears": 8.0,
+  "republicTermLimitYears": 10.0,
+  "republicPreferClanSwitch": true
+}

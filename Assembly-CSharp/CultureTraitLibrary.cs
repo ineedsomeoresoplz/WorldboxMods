@@ -1,0 +1,544 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: CultureTraitLibrary
+// Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: EAF20368-35E7-4BB6-B082-5477D61019A6
+// Assembly location: C:\Users\Takko\Downloads\Worldbox .NET\Assembly-CSharp.dll
+
+using System.Collections.Generic;
+
+#nullable disable
+public class CultureTraitLibrary : BaseTraitLibrary<CultureTrait>
+{
+  protected override List<string> getDefaultTraitsForMeta(ActorAsset pAsset)
+  {
+    return pAsset.default_culture_traits;
+  }
+
+  public override void init()
+  {
+    base.init();
+    this.addWeaponRelatedTraits();
+    this.addTownPlansZones();
+    this.addTownPlansTilePlacements();
+    CultureTrait pAsset1 = new CultureTrait();
+    pAsset1.id = "roads";
+    pAsset1.group_id = "architecture";
+    this.add(pAsset1);
+    CultureTrait pAsset2 = new CultureTrait();
+    pAsset2.id = "expansionists";
+    pAsset2.group_id = "kingdom";
+    pAsset2.priority = 100;
+    this.add(pAsset2);
+    CultureTrait pAsset3 = new CultureTrait();
+    pAsset3.id = "tiny_legends";
+    pAsset3.group_id = "kingdom";
+    pAsset3.priority = 99;
+    this.add(pAsset3);
+    this.t.addOpposite("youth_reverence");
+    CultureTrait pAsset4 = new CultureTrait();
+    pAsset4.id = "animal_whisperers";
+    pAsset4.group_id = "miscellaneous";
+    this.add(pAsset4);
+    CultureTrait pAsset5 = new CultureTrait();
+    pAsset5.id = "ancestors_knowledge";
+    pAsset5.group_id = "knowledge";
+    this.add(pAsset5);
+    this.t.setUnlockedWithAchievement("achievementTraitExplorerCulture");
+    CultureTrait pAsset6 = new CultureTrait();
+    pAsset6.id = "statue_lovers";
+    pAsset6.value = 4f;
+    pAsset6.group_id = "buildings";
+    this.add(pAsset6);
+    CultureTrait pAsset7 = new CultureTrait();
+    pAsset7.id = "tower_lovers";
+    pAsset7.value = 4f;
+    pAsset7.group_id = "buildings";
+    this.add(pAsset7);
+    CultureTrait pAsset8 = new CultureTrait();
+    pAsset8.id = "training_potential";
+    pAsset8.group_id = "knowledge";
+    this.add(pAsset8);
+    CultureTrait pAsset9 = new CultureTrait();
+    pAsset9.id = "elder_reverence";
+    pAsset9.value = 2f;
+    pAsset9.group_id = "happiness";
+    this.add(pAsset9);
+    this.t.addOpposite("youth_reverence");
+    CultureTrait pAsset10 = new CultureTrait();
+    pAsset10.id = "youth_reverence";
+    pAsset10.group_id = "happiness";
+    this.add(pAsset10);
+    this.t.addOpposite("elder_reverence");
+    this.t.addOpposite("tiny_legends");
+    CultureTrait pAsset11 = new CultureTrait();
+    pAsset11.id = "conscription_female_only";
+    pAsset11.group_id = "kingdom";
+    pAsset11.priority = 90;
+    this.add(pAsset11);
+    this.t.addOpposite("conscription_male_only");
+    CultureTrait pAsset12 = new CultureTrait();
+    pAsset12.id = "conscription_male_only";
+    pAsset12.group_id = "kingdom";
+    pAsset12.priority = 89;
+    this.add(pAsset12);
+    this.t.addOpposite("conscription_female_only");
+    CultureTrait pAsset13 = new CultureTrait();
+    pAsset13.id = "fast_learners";
+    pAsset13.group_id = "knowledge";
+    pAsset13.value = 2f;
+    this.add(pAsset13);
+    CultureTrait pAsset14 = new CultureTrait();
+    pAsset14.id = "pep_talks";
+    pAsset14.group_id = "happiness";
+    this.add(pAsset14);
+    CultureTrait pAsset15 = new CultureTrait();
+    pAsset15.id = "expertise_exchange";
+    pAsset15.value = 10f;
+    pAsset15.group_id = "knowledge";
+    this.add(pAsset15);
+    CultureTrait pAsset16 = new CultureTrait();
+    pAsset16.id = "happiness_from_war";
+    pAsset16.group_id = "happiness";
+    this.add(pAsset16);
+    CultureTrait pAsset17 = new CultureTrait();
+    pAsset17.id = "dense_dwellings";
+    pAsset17.value = 2f;
+    pAsset17.group_id = "harmony";
+    this.add(pAsset17);
+    this.t.addOpposite("solitude_seekers");
+    this.t.addOpposite("hive_society");
+    CultureTrait pAsset18 = new CultureTrait();
+    pAsset18.id = "solitude_seekers";
+    pAsset18.value = 0.5f;
+    pAsset18.group_id = "harmony";
+    this.add(pAsset18);
+    this.t.addOpposite("dense_dwellings");
+    this.t.addOpposite("hive_society");
+    CultureTrait pAsset19 = new CultureTrait();
+    pAsset19.id = "hive_society";
+    pAsset19.value = 10f;
+    pAsset19.group_id = "harmony";
+    this.add(pAsset19);
+    this.t.setUnlockedWithAchievement("achievementAntWorld");
+    this.t.addOpposite("dense_dwellings");
+    this.t.addOpposite("solitude_seekers");
+    CultureTrait pAsset20 = new CultureTrait();
+    pAsset20.id = "gossip_lovers";
+    pAsset20.group_id = "happiness";
+    this.add(pAsset20);
+    CultureTrait pAsset21 = new CultureTrait();
+    pAsset21.id = "reading_lovers";
+    pAsset21.group_id = "knowledge";
+    this.add(pAsset21);
+    CultureTrait pAsset22 = new CultureTrait();
+    pAsset22.id = "attentive_readers";
+    pAsset22.value = 2f;
+    pAsset22.group_id = "knowledge";
+    this.add(pAsset22);
+    CultureTrait pAsset23 = new CultureTrait();
+    pAsset23.id = "join_or_die";
+    pAsset23.group_id = "worldview";
+    pAsset23.priority = 100;
+    pAsset23.action_attack_target = (AttackAction) ((pSelf, pTarget, pTile) =>
+    {
+      if (!pSelf.a.isKingdomCiv() || !pTarget.isActor() || !pTarget.isAlive() || pTarget.a.kingdom == pSelf.kingdom || !pTarget.isKingdomCiv() && !pTarget.kingdom.isNomads() || !pTarget.a.isSapient() || pTarget.a.hasTag("strong_mind") || (double) pTarget.a.getHealthRatio() > 0.30000001192092896 || !Randy.randomChance(0.3f))
+        return false;
+      pTarget.a.removeFromPreviousFaction();
+      pTarget.a.joinKingdom(pSelf.kingdom);
+      pSelf.a.clearAttackTarget();
+      pTarget.a.clearAttackTarget();
+      pTarget.a.applyRandomForce();
+      return true;
+    });
+    this.add(pAsset23);
+    CultureTrait pAsset24 = new CultureTrait();
+    pAsset24.id = "true_roots";
+    pAsset24.group_id = "miscellaneous";
+    this.add(pAsset24);
+    CultureTrait pAsset25 = new CultureTrait();
+    pAsset25.id = "legacy_keepers";
+    pAsset25.group_id = "miscellaneous";
+    this.add(pAsset25);
+    CultureTrait pAsset26 = new CultureTrait();
+    pAsset26.id = "serenity_now";
+    pAsset26.group_id = "worldview";
+    this.add(pAsset26);
+    this.t.base_stats.addTag("love_peace");
+    this.t.addOpposite("xenophobic");
+    CultureTrait pAsset27 = new CultureTrait();
+    pAsset27.id = "weaponsmith_mastery";
+    pAsset27.value = 5f;
+    pAsset27.group_id = "warfare";
+    this.add(pAsset27);
+    CultureTrait pAsset28 = new CultureTrait();
+    pAsset28.id = "armorsmith_mastery";
+    pAsset28.value = 5f;
+    pAsset28.group_id = "warfare";
+    this.add(pAsset28);
+    CultureTrait pAsset29 = new CultureTrait();
+    pAsset29.id = "patriarchy";
+    pAsset29.group_id = "succession";
+    pAsset29.has_description_2 = false;
+    pAsset29.priority = 97;
+    this.add(pAsset29);
+    this.t.addOpposite("matriarchy");
+    CultureTrait pAsset30 = new CultureTrait();
+    pAsset30.id = "matriarchy";
+    pAsset30.group_id = "succession";
+    pAsset30.has_description_2 = false;
+    pAsset30.priority = 96 /*0x60*/;
+    this.add(pAsset30);
+    this.t.addOpposite("patriarchy");
+    CultureTrait pAsset31 = new CultureTrait();
+    pAsset31.id = "ultimogeniture";
+    pAsset31.group_id = "succession";
+    pAsset31.priority = 96 /*0x60*/;
+    this.add(pAsset31);
+    CultureTrait pAsset32 = new CultureTrait();
+    pAsset32.id = "diplomatic_ascension";
+    pAsset32.group_id = "succession";
+    pAsset32.priority = 100;
+    this.add(pAsset32);
+    this.t.base_stats.addTag("love_peace");
+    this.t.addOpposite("warriors_ascension");
+    this.t.addOpposite("fames_crown");
+    this.t.addOpposite("golden_rule");
+    CultureTrait pAsset33 = new CultureTrait();
+    pAsset33.id = "fames_crown";
+    pAsset33.group_id = "succession";
+    pAsset33.priority = 100;
+    this.add(pAsset33);
+    this.t.addOpposite("warriors_ascension");
+    this.t.addOpposite("diplomatic_ascension");
+    this.t.addOpposite("golden_rule");
+    CultureTrait pAsset34 = new CultureTrait();
+    pAsset34.id = "golden_rule";
+    pAsset34.group_id = "succession";
+    pAsset34.priority = 100;
+    this.add(pAsset34);
+    this.t.addOpposite("warriors_ascension");
+    this.t.addOpposite("fames_crown");
+    this.t.addOpposite("diplomatic_ascension");
+    CultureTrait pAsset35 = new CultureTrait();
+    pAsset35.id = "shattered_crown";
+    pAsset35.group_id = "succession";
+    pAsset35.priority = 60;
+    this.add(pAsset35);
+    CultureTrait pAsset36 = new CultureTrait();
+    pAsset36.id = "unbroken_chain";
+    pAsset36.group_id = "succession";
+    pAsset36.priority = 59;
+    this.add(pAsset36);
+    this.t.setUnlockedWithAchievement("achievementSuccession");
+    CultureTrait pAsset37 = new CultureTrait();
+    pAsset37.id = "warriors_ascension";
+    pAsset37.group_id = "succession";
+    pAsset37.priority = 99;
+    this.add(pAsset37);
+    this.t.addOpposite("diplomatic_ascension");
+    this.t.addOpposite("fames_crown");
+    this.t.addOpposite("golden_rule");
+    CultureTrait pAsset38 = new CultureTrait();
+    pAsset38.id = "xenophobic";
+    pAsset38.group_id = "worldview";
+    this.add(pAsset38);
+    this.t.addOpposite("xenophiles");
+    this.t.addOpposite("serenity_now");
+    CultureTrait pAsset39 = new CultureTrait();
+    pAsset39.id = "ethnocentric_guard";
+    pAsset39.group_id = "worldview";
+    this.add(pAsset39);
+    CultureTrait pAsset40 = new CultureTrait();
+    pAsset40.id = "xenophiles";
+    pAsset40.group_id = "worldview";
+    this.add(pAsset40);
+    this.t.base_stats.addTag("love_peace");
+    this.t.addOpposite("xenophobic");
+    CultureTrait pAsset41 = new CultureTrait();
+    pAsset41.id = "ethno_sculpted";
+    pAsset41.group_id = "special";
+    pAsset41.can_be_given = false;
+    pAsset41.can_be_removed = false;
+    pAsset41.can_be_in_book = false;
+    pAsset41.spawn_random_trait_allowed = false;
+    this.add(pAsset41);
+    CultureTrait pAsset42 = new CultureTrait();
+    pAsset42.id = "grin_mark";
+    pAsset42.group_id = "fate";
+    pAsset42.spawn_random_trait_allowed = false;
+    pAsset42.priority = -100;
+    this.add(pAsset42);
+    this.t.setTraitInfoToGrinMark();
+    this.t.setUnlockedWithAchievement("achievementCreaturesExplorer");
+  }
+
+  private void addTownPlansZones()
+  {
+    CultureTrait pAsset1 = new CultureTrait();
+    pAsset1.id = "city_layout_architects_eye";
+    pAsset1.group_id = "town_plan";
+    this.add(pAsset1);
+    this.t.setTownLayoutPlan(new PassableZoneChecker(TownPlans.isInPassableRingMap));
+    CultureTrait pAsset2 = new CultureTrait();
+    pAsset2.id = "city_layout_madman_labyrinth";
+    pAsset2.group_id = "town_plan";
+    this.add(pAsset2);
+    this.t.setTownLayoutPlan(new PassableZoneChecker(TownPlans.isPassableMadmanLabyrinth));
+    CultureTrait pAsset3 = new CultureTrait();
+    pAsset3.id = "city_layout_honeycomb";
+    pAsset3.group_id = "town_plan";
+    this.add(pAsset3);
+    this.t.setUnlockedWithAchievement("achievementSwarm");
+    this.t.setTownLayoutPlan(new PassableZoneChecker(TownPlans.isPassableHoneycomb));
+    CultureTrait pAsset4 = new CultureTrait();
+    pAsset4.id = "city_layout_bricks";
+    pAsset4.group_id = "town_plan";
+    this.add(pAsset4);
+    this.t.setTownLayoutPlan(new PassableZoneChecker(TownPlans.isPassableBrickHorizontal));
+    CultureTrait pAsset5 = new CultureTrait();
+    pAsset5.id = "city_layout_raindrops";
+    pAsset5.group_id = "town_plan";
+    this.add(pAsset5);
+    this.t.setTownLayoutPlan(new PassableZoneChecker(TownPlans.isPassableBrickVertical));
+    CultureTrait pAsset6 = new CultureTrait();
+    pAsset6.id = "city_layout_cross";
+    pAsset6.group_id = "town_plan";
+    this.add(pAsset6);
+    this.t.setTownLayoutPlan(new PassableZoneChecker(TownPlans.isPassableCross));
+    CultureTrait pAsset7 = new CultureTrait();
+    pAsset7.id = "city_layout_claws";
+    pAsset7.group_id = "town_plan";
+    this.add(pAsset7);
+    this.t.setTownLayoutPlan(new PassableZoneChecker(TownPlans.isPassableDiagonal));
+    CultureTrait pAsset8 = new CultureTrait();
+    pAsset8.id = "city_layout_pebbles";
+    pAsset8.group_id = "town_plan";
+    pAsset8.priority = 50;
+    this.add(pAsset8);
+    this.t.setTownLayoutPlan(new PassableZoneChecker(TownPlans.isPassableClustersSmall));
+    CultureTrait pAsset9 = new CultureTrait();
+    pAsset9.id = "city_layout_stone_garden";
+    pAsset9.group_id = "town_plan";
+    pAsset9.priority = 49;
+    this.add(pAsset9);
+    this.t.setTownLayoutPlan(new PassableZoneChecker(TownPlans.isPassableClustersMedium));
+    CultureTrait pAsset10 = new CultureTrait();
+    pAsset10.id = "city_layout_titan_footprints";
+    pAsset10.group_id = "town_plan";
+    pAsset10.priority = 48 /*0x30*/;
+    this.add(pAsset10);
+    this.t.setTownLayoutPlan(new PassableZoneChecker(TownPlans.isPassableClustersBig));
+    CultureTrait pAsset11 = new CultureTrait();
+    pAsset11.id = "city_layout_silk_web";
+    pAsset11.group_id = "town_plan";
+    pAsset11.priority = 47;
+    this.add(pAsset11);
+    this.t.setTownLayoutPlan(new PassableZoneChecker(TownPlans.isPassableLatticeSmall));
+    CultureTrait pAsset12 = new CultureTrait();
+    pAsset12.id = "city_layout_iron_weave";
+    pAsset12.group_id = "town_plan";
+    pAsset12.priority = 46;
+    this.add(pAsset12);
+    this.t.setTownLayoutPlan(new PassableZoneChecker(TownPlans.isPassableLatticeMedium));
+    CultureTrait pAsset13 = new CultureTrait();
+    pAsset13.id = "city_layout_monolith_mesh";
+    pAsset13.group_id = "town_plan";
+    pAsset13.priority = 45;
+    this.add(pAsset13);
+    this.t.setTownLayoutPlan(new PassableZoneChecker(TownPlans.isPassableLatticeBig));
+    CultureTrait pAsset14 = new CultureTrait();
+    pAsset14.id = "city_layout_royal_checkers";
+    pAsset14.group_id = "town_plan";
+    pAsset14.priority = 44;
+    this.add(pAsset14);
+    this.t.setTownLayoutPlan(new PassableZoneChecker(TownPlans.isPassableDiamondCluster));
+    CultureTrait pAsset15 = new CultureTrait();
+    pAsset15.id = "city_layout_diamond";
+    pAsset15.group_id = "town_plan";
+    pAsset15.priority = 43;
+    this.add(pAsset15);
+    this.t.setTownLayoutPlan(new PassableZoneChecker(TownPlans.isPassableDiamond));
+    CultureTrait pAsset16 = new CultureTrait();
+    pAsset16.id = "city_layout_parallels";
+    pAsset16.group_id = "town_plan";
+    pAsset16.priority = 42;
+    this.add(pAsset16);
+    this.t.setTownLayoutPlan(new PassableZoneChecker(TownPlans.isPassableLineHorizontal));
+    CultureTrait pAsset17 = new CultureTrait();
+    pAsset17.id = "city_layout_pillars";
+    pAsset17.group_id = "town_plan";
+    pAsset17.priority = 41;
+    this.add(pAsset17);
+    this.t.setTownLayoutPlan(new PassableZoneChecker(TownPlans.isPassableLineVertical));
+    CultureTrait pAsset18 = new CultureTrait();
+    pAsset18.id = "city_layout_rings";
+    pAsset18.group_id = "town_plan";
+    this.add(pAsset18);
+    this.t.setTownLayoutPlan(new PassableZoneChecker(TownPlans.isInPassableRing));
+    this.addTownLayoutOpposites();
+  }
+
+  private void addTownPlansTilePlacements()
+  {
+    CultureTrait pAsset1 = new CultureTrait();
+    pAsset1.id = "buildings_spread";
+    pAsset1.group_id = "town_plan";
+    pAsset1.priority = 100;
+    this.add(pAsset1);
+    CultureTrait pAsset2 = new CultureTrait();
+    pAsset2.id = "city_layout_tile_wobbly_pattern";
+    pAsset2.group_id = "town_plan";
+    pAsset2.priority = 98;
+    this.add(pAsset2);
+    this.t.addOpposite("city_layout_the_grand_arrangement");
+    this.t.addOpposite("city_layout_tile_moonsteps");
+    CultureTrait pAsset3 = new CultureTrait();
+    pAsset3.id = "city_layout_the_grand_arrangement";
+    pAsset3.group_id = "town_plan";
+    pAsset3.priority = 99;
+    this.add(pAsset3);
+    this.t.addOpposite("city_layout_tile_wobbly_pattern");
+    this.t.addOpposite("city_layout_tile_moonsteps");
+    CultureTrait pAsset4 = new CultureTrait();
+    pAsset4.id = "city_layout_tile_moonsteps";
+    pAsset4.group_id = "town_plan";
+    pAsset4.priority = 97;
+    this.add(pAsset4);
+    this.t.addOpposite("city_layout_tile_wobbly_pattern");
+    this.t.addOpposite("city_layout_the_grand_arrangement");
+  }
+
+  private void addTownLayoutOpposites()
+  {
+    using (ListPool<string> pListIDS = new ListPool<string>())
+    {
+      foreach (CultureTrait cultureTrait in this.list)
+      {
+        if (cultureTrait.town_layout_plan)
+          pListIDS.Add(cultureTrait.id);
+      }
+      foreach (CultureTrait cultureTrait in this.list)
+      {
+        if (cultureTrait.town_layout_plan)
+        {
+          cultureTrait.addOpposites((IEnumerable<string>) pListIDS);
+          cultureTrait.removeOpposite(cultureTrait.id);
+        }
+      }
+    }
+  }
+
+  private void addWeaponRelatedTraits()
+  {
+    CultureTrait pAsset1 = new CultureTrait();
+    pAsset1.id = "axe_lovers";
+    pAsset1.value = 10f;
+    pAsset1.group_id = "weapons";
+    pAsset1.is_weapon_trait = true;
+    this.add(pAsset1);
+    this.t.addWeaponSubtype("axe");
+    CultureTrait pAsset2 = new CultureTrait();
+    pAsset2.id = "sword_lovers";
+    pAsset2.value = 10f;
+    pAsset2.group_id = "weapons";
+    pAsset2.is_weapon_trait = true;
+    this.add(pAsset2);
+    this.t.addWeaponSubtype("sword");
+    CultureTrait pAsset3 = new CultureTrait();
+    pAsset3.id = "bow_lovers";
+    pAsset3.value = 6f;
+    pAsset3.group_id = "weapons";
+    pAsset3.is_weapon_trait = true;
+    this.add(pAsset3);
+    this.t.addWeaponSubtype("bow");
+    CultureTrait pAsset4 = new CultureTrait();
+    pAsset4.id = "hammer_lovers";
+    pAsset4.value = 10f;
+    pAsset4.group_id = "weapons";
+    pAsset4.is_weapon_trait = true;
+    this.add(pAsset4);
+    this.t.addWeaponSubtype("hammer");
+    CultureTrait pAsset5 = new CultureTrait();
+    pAsset5.id = "spear_lovers";
+    pAsset5.value = 10f;
+    pAsset5.group_id = "weapons";
+    pAsset5.is_weapon_trait = true;
+    this.add(pAsset5);
+    this.t.addWeaponSubtype("spear");
+    CultureTrait pAsset6 = new CultureTrait();
+    pAsset6.id = "craft_flame_weapon";
+    pAsset6.value = 10f;
+    pAsset6.group_id = "craft";
+    pAsset6.is_weapon_trait = true;
+    this.add(pAsset6);
+    this.t.addWeaponSpecial("flame_sword");
+    this.t.addWeaponSpecial("flame_hammer");
+    CultureTrait pAsset7 = new CultureTrait();
+    pAsset7.id = "craft_ice_weapon";
+    pAsset7.value = 10f;
+    pAsset7.group_id = "craft";
+    pAsset7.is_weapon_trait = true;
+    this.add(pAsset7);
+    this.t.addWeaponSpecial("ice_hammer");
+    CultureTrait pAsset8 = new CultureTrait();
+    pAsset8.id = "craft_evil_staff";
+    pAsset8.value = 10f;
+    pAsset8.group_id = "craft";
+    pAsset8.is_weapon_trait = true;
+    this.add(pAsset8);
+    this.t.addWeaponSpecial("evil_staff");
+    CultureTrait pAsset9 = new CultureTrait();
+    pAsset9.id = "craft_white_staff";
+    pAsset9.value = 10f;
+    pAsset9.group_id = "craft";
+    pAsset9.is_weapon_trait = true;
+    this.add(pAsset9);
+    this.t.addWeaponSpecial("white_staff");
+    CultureTrait pAsset10 = new CultureTrait();
+    pAsset10.id = "craft_necro_staff";
+    pAsset10.value = 10f;
+    pAsset10.group_id = "craft";
+    pAsset10.is_weapon_trait = true;
+    this.add(pAsset10);
+    this.t.addWeaponSpecial("necromancer_staff");
+    CultureTrait pAsset11 = new CultureTrait();
+    pAsset11.id = "craft_druid_staff";
+    pAsset11.value = 10f;
+    pAsset11.group_id = "craft";
+    pAsset11.is_weapon_trait = true;
+    this.add(pAsset11);
+    this.t.addWeaponSpecial("druid_staff");
+    CultureTrait pAsset12 = new CultureTrait();
+    pAsset12.id = "craft_doctor_staff";
+    pAsset12.value = 10f;
+    pAsset12.group_id = "craft";
+    pAsset12.is_weapon_trait = true;
+    this.add(pAsset12);
+    this.t.addWeaponSpecial("plague_doctor_staff");
+    CultureTrait pAsset13 = new CultureTrait();
+    pAsset13.id = "craft_shotgun";
+    pAsset13.value = 10f;
+    pAsset13.group_id = "craft";
+    pAsset13.is_weapon_trait = true;
+    pAsset13.priority = -1;
+    pAsset13.spawn_random_trait_allowed = false;
+    this.add(pAsset13);
+    this.t.setUnlockedWithAchievement("achievementSwordWithShotgun");
+    this.t.addWeaponSpecial("shotgun");
+    CultureTrait pAsset14 = new CultureTrait();
+    pAsset14.id = "craft_blaster";
+    pAsset14.value = 10f;
+    pAsset14.group_id = "craft";
+    pAsset14.is_weapon_trait = true;
+    pAsset14.priority = -2;
+    pAsset14.spawn_random_trait_allowed = false;
+    this.add(pAsset14);
+    this.t.addWeaponSpecial("alien_blaster");
+  }
+
+  protected override string icon_path => "ui/Icons/culture_traits/";
+
+  public static float getValueFloat(string pID) => AssetManager.culture_traits.get(pID).value;
+
+  public static int getValue(string pID) => (int) AssetManager.culture_traits.get(pID).value;
+}

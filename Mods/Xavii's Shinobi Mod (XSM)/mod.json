@@ -1,0 +1,8 @@
+{
+  "name": "Xavii's Shinobi Mod (XSM)",
+  "author": "ineedsomeoreosplz",
+  "version": "2.0.0",
+  "description": "Naruto overhaul: clans, dojutsu, ranks, beasts, weapons, chakra natures, and new Sage/Baryon/Six Paths ascension with configurable progression.",
+  "iconPath": "icon.png",
+  "targetGameBuild": 719
+}

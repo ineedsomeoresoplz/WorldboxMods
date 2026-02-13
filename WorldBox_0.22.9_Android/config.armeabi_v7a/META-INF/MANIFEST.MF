@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+
+Name: AndroidManifest.xml
+SHA1-Digest: VNeSzT1ZQ2fZoHsmiF4DcaSJvfw=
+
+Name: lib/armeabi-v7a/libFirebaseCppAnalytics.so
+SHA1-Digest: 6ZwpUMkT/XLdI+X/IQ2Hsapp1R8=
+
+Name: lib/armeabi-v7a/libFirebaseCppApp-10_5_0.so
+SHA1-Digest: 18W3h6sAp6aQd0Ru8ByRJ85Cs2M=
+
+Name: lib/armeabi-v7a/libfmod.so
+SHA1-Digest: l97w55lD6j7l8iDec3BUypHJNJc=
+
+Name: lib/armeabi-v7a/libfmodstudio.so
+SHA1-Digest: yqdTuEnk3BBwr5dphmQpPWj/I0k=
+
+Name: lib/armeabi-v7a/libil2cpp.so
+SHA1-Digest: fopaGZll0pqlkZBOOKmsdklll1E=
+
+Name: lib/armeabi-v7a/libmain.so
+SHA1-Digest: RlXoxqJ2nDGzyGcBuK9A23zAEZY=
+
+Name: lib/armeabi-v7a/libpairipcore.so
+SHA1-Digest: J6KjKU+onv1QKcX48KNhTkORQSw=
+
+Name: lib/armeabi-v7a/libresonanceaudio.so
+SHA1-Digest: 8vAnANPQ66TISXJQ7wVr/VP9nDU=
+
+Name: lib/armeabi-v7a/libsqlite3.so
+SHA1-Digest: 0WJSag+9OSHCLuyhdmQdrsHbQZ4=
+
+Name: lib/armeabi-v7a/libunity.so
+SHA1-Digest: 28SWujtegRym1FVyB+1vOFv6uu4=
+
+Name: stamp-cert-sha256
+SHA1-Digest: 5vTkm69vqAbusD/fho7oWwc7j+I=
+

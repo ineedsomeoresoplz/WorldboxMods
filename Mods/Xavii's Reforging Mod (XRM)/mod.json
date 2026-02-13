@@ -1,0 +1,12 @@
+{
+  "name": "Xavii's Reforging Mod (XRM)",
+  "author": "ineedsomeoreosplz",
+  "GUID": "com.xavii.xrm",
+  "version": "1.1.0",
+  "description": "Adds a vanilla modifier editor with snap sliders to standard reforge, keeps divine reforge as custom buff selection, and applies collision weaknesses when incompatible custom buffs combine.",
+  "Dependencies": [
+    "com.xavii.xwm"
+  ],
+  "iconPath": "icon.png",
+  "targetGameBuild": 719
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Xavii's Pixel Art Mod (XPAM)",
+  "author": "ineedsomeoreosplz",
+  "GUID": "com.xavii.xpam",
+  "version": "2.1.0",
+  "description": "Paint-style pixel art engine with marquee selection, move/copy/cut/paste workflows, drag-based shape tools, symmetry painting, transforms, PNG import, and project save/load.",
+  "targetGameBuild": 719,
+  "iconPath": "icon.png"
+}

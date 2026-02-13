@@ -1,0 +1,16 @@
+{
+  "historybook_title": "Livro de história",
+  "historybook_open_button": "Livro de história",
+  "historybook_delete_all": "Excluir tudo",
+  "historybook_delete_entry": "Excluir entrada",
+  "historybook_export_button": "Cronograma de exportação",
+  "historybook_no_favorites": "Marque uma unidade como favorita para começar a capturar sua história.",
+  "historybook_select_prompt": "Selecione um favorito na coluna da esquerda para abrir a página com rolagem infinita.",
+  "historybook_follow_relative": "Seguir",
+  "historybook_favorites_header": "Unidades favoritas",
+  "historybook_timeline_header": "Cronograma",
+  "historybook_empty_timeline": "Ainda não há eventos na linha do tempo.",
+  "historybook_histories_deleted": "Todos os históricos favoritos foram apagados.",
+  "historybook_record_deleted": "O histórico desta unidade foi removido.",
+  "historybook_toggle_success": "Livro de história alternado."
+}

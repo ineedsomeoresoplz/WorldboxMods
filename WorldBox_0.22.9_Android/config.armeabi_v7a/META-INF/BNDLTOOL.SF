@@ -1,0 +1,41 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: 4HCVfGucE5wtpM34pDeDVoagaxA=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA1-Digest: /inGnD+dxQ7+TrVt51bkOiatsYY=
+
+Name: lib/armeabi-v7a/libFirebaseCppAnalytics.so
+SHA1-Digest: IQPbVwOySe6GWonTovksWNciAT0=
+
+Name: lib/armeabi-v7a/libFirebaseCppApp-10_5_0.so
+SHA1-Digest: W/P/IFsI6Hzokac25LJkhKDX6Iw=
+
+Name: lib/armeabi-v7a/libfmod.so
+SHA1-Digest: AbzTjRxUN0I1Hun5sWqQy9r3E+4=
+
+Name: lib/armeabi-v7a/libfmodstudio.so
+SHA1-Digest: LNsKxJVoX7zCLZj5tgaaOrhdTO4=
+
+Name: lib/armeabi-v7a/libil2cpp.so
+SHA1-Digest: WH5xhErqV7tDgw0bU+rC1DhG6QY=
+
+Name: lib/armeabi-v7a/libmain.so
+SHA1-Digest: josqOXR/Fkx3KRy2OtwzklfDSLg=
+
+Name: lib/armeabi-v7a/libpairipcore.so
+SHA1-Digest: B1rfFxmuVQVjcom3Fi5aAqdy+iE=
+
+Name: lib/armeabi-v7a/libresonanceaudio.so
+SHA1-Digest: G0ODcOo88FCpSaHG3P6NMtkxVS0=
+
+Name: lib/armeabi-v7a/libsqlite3.so
+SHA1-Digest: 02kftC36oeYtI/3qvcrkGIF6RF4=
+
+Name: lib/armeabi-v7a/libunity.so
+SHA1-Digest: rm5ShvPr6VzIUPfwXjuzDnFJNxc=
+
+Name: stamp-cert-sha256
+SHA1-Digest: Bs40BvDZ1xrbgQrPTD2x5w/NfHQ=
+

@@ -1,0 +1,34 @@
+{
+  "mod_config_title": [ //Make sure this one exists in locale
+    {
+      "Id": "config_enable_clan_name", //Make sure this one exists in locale
+      "Type": "SWITCH",
+      "BoolVal": true,
+      "Callback": "NarutoBoxConfig:ClanNameEnableSwitchConfigCallBack"
+    },
+    {
+      "Id": "config_unlock_all_legend_traits", //Make sure this one exists in locale
+      "Type": "SWITCH",
+      "BoolVal": false,
+      "Callback": "NarutoBoxConfig:UnlockLegendTraitsSwitchConfigCallBack"
+    },
+    {
+      "Id": "config_enable_auto_favorite", //Make sure this one exists in locale
+      "Type": "SWITCH",
+      "BoolVal": false,
+      "Callback": "NarutoBoxConfig:AutoFavoriteEnableSwitchConfigCallBack"
+    },
+    {
+      "Id": "config_enable_force_rename", //Make sure this one exists in locale
+      "Type": "SWITCH",
+      "BoolVal": true,
+      "Callback": "NarutoBoxConfig:ForceRenameSwitchConfigCallBack"
+    },
+    {
+      "Id": "config_enable_legendary_ascension", //Make sure this one exists in locale
+      "Type": "SWITCH",
+      "BoolVal": true,
+      "Callback": "NarutoBoxConfig:LegendaryAscensionSwitchConfigCallBack"
+    }
+  ]
+}

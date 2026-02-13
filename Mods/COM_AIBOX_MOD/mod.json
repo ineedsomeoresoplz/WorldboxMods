@@ -1,0 +1,8 @@
+{
+    "name": "AIBox",
+    "author": "MarKami#5286",
+    "version": "2.0.0",
+    "description": "AI powered kingdoms for WorldBox",
+    "iconPath": "icon.png",
+    "GUID": "com.aibox.mod"
+}

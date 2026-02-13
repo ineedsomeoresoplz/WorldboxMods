@@ -1,0 +1,9 @@
+{
+  "name": "Xavii's Windows Mod (XWM)",
+  "author": "ineedsomeoreosplz",
+  "GUID": "com.xavii.xwm",
+  "version": "3.0.0",
+  "description": "In-game UI studio, runtime hub, tweened window runtime, cross-mod xwm management, and persistent workspace state.",
+  "targetGameBuild": 719,
+  "iconPath": "icon.png"
+}

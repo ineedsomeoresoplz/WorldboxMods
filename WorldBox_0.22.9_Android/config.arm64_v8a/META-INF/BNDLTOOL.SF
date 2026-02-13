@@ -1,0 +1,38 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: kt37mpKmAhmIDXdGz3EnKx2Rl5c=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA1-Digest: 7qniEKZAS9J3Ex4BDETbwr4kAhY=
+
+Name: lib/arm64-v8a/libFirebaseCppAnalytics.so
+SHA1-Digest: hJYVvpwHRGY+SgqK0IpxZtBKBk0=
+
+Name: lib/arm64-v8a/libFirebaseCppApp-10_5_0.so
+SHA1-Digest: TQhtLL+Qzv/omzPHqcuWJ/9nt8A=
+
+Name: lib/arm64-v8a/libfmod.so
+SHA1-Digest: 8pSzgKG6qdNnW8qg7xSbE8LHuFA=
+
+Name: lib/arm64-v8a/libfmodstudio.so
+SHA1-Digest: 9K2PQEGZc/9UwjGaFqfrmkoIjj0=
+
+Name: lib/arm64-v8a/libil2cpp.so
+SHA1-Digest: bVWvRk805trf1JlP1+bNMVPOsCA=
+
+Name: lib/arm64-v8a/libmain.so
+SHA1-Digest: B2Djc9y4JaswHO8E0xVtGgn4QOA=
+
+Name: lib/arm64-v8a/libpairipcore.so
+SHA1-Digest: o2dn1kCkL34EZZvhH+HPlvX817c=
+
+Name: lib/arm64-v8a/libresonanceaudio.so
+SHA1-Digest: LeTE3XL2qbD3aUcvwuCYiaz5nuo=
+
+Name: lib/arm64-v8a/libunity.so
+SHA1-Digest: xxVbxySDh+W9LhJyE/fPtu/CeKg=
+
+Name: stamp-cert-sha256
+SHA1-Digest: Bs40BvDZ1xrbgQrPTD2x5w/NfHQ=
+
